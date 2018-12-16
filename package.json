@@ -1,0 +1,26 @@
+{
+  "name": "cho_jeongyun_extra-credit-2-mini-app",
+  "version": "1.0.0",
+  "description": "extra credit 2",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeongyunCho/Cho_Jeongyun_Extra-Credit-2-Mini-App.git"
+  },
+  "author": "Jeongyun Cho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeongyunCho/Cho_Jeongyun_Extra-Credit-2-Mini-App/issues"
+  },
+  "homepage": "https://github.com/JeongyunCho/Cho_Jeongyun_Extra-Credit-2-Mini-App#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  }
+}
