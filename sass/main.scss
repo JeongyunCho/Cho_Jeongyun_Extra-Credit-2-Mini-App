@@ -1,0 +1,8 @@
+//import vars and modules
+@import '_vars';
+@import '_mainRule';
+//import required modules
+@import 'modules/_header';
+@import 'modules/_carVidSection';
+@import 'modules/_carTextSection';
+@import 'modules/_footer';

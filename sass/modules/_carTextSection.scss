@@ -1,0 +1,70 @@
+.preloader-wrapper{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+	background-color: black;
+	border-radius: 3px;
+  overflow: hidden;
+  .preloader {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+.car-thumbs { margin-top: 100px; 
+  .modelDetails {
+    font-family: $detailsFont;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  .thumbInfo img { 
+    cursor: pointer;
+    transition: all .6s; 
+    width: 175px;
+  }
+  .thumbInfo ~ hr { border-color: #A5A5A5; }
+  .socialIcons {
+    background-image: $sIconBkgrd;
+    background-repeat: repeat-x;
+    height: 35px;
+    border: thin solid #333;
+    padding: 0 10px;
+    margin:10px 0;
+    &> ul { margin-bottom: 0; padding-left:10px; 
+      li{
+        &:first-child { margin-right: 10px; };
+        &:nth-child(2) { margin-left: 70px; };
+        &:nth-child(3) { margin-left: 8px; };
+        &:nth-child(4) { margin-left: 8px; };
+        &:last-of-type { margin-left: 8px; };
+      }
+    }
+    i { font-size:$iFsize; padding-top: 5px; cursor: pointer; display:inline-block; }
+  }
+  
+}
+
+
+
+//rest
+.modelDesc, .subM { margin-bottom: 0; }
+.subM { margin-top: 20px; }
+li > p { margin-bottom: 5px; font-family: $intructionsFont; }
+.instructions { font-size: .8em; font-family: $intructionsFont; }
+#map-canvas { width: 100%; height:200px; border: thin dashed #fff;
+  & > div { color: black; }
+}
+.fa-expand { cursor: pointer; margin-top: 8px; }
+.searchButtons button { width: 100%; }
+#changeLoc { height: 3.25rem; }
+.nonActive { opacity: 0.4; }
+.fadeOut { opacity:0; }
+sup { font-size: 0.7em; }
+.focusMini {
+	opacity:1;
+	z-index: 1000;
+	top:190px;
+	width:550px;
+	left: 250px;
+}
